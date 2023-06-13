@@ -1,0 +1,245 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* шрифти */
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.font-weight-700 {
+  font-weight: 700 !important;
+}
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+.font-weight-400 {
+  font-weight: 400 !important;
+}
+.line-height-60 {
+  line-height: 60px;
+}
+.line-height-24 {
+  line-height: 24px;
+}
+.line-height-40 {
+  line-height: 40px;
+}
+.font-size-56 {
+  font-size: 56px;
+}
+.font-size-36 {
+  font-size: 36px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+.letter-spacing-02 {
+  letter-spacing: 0.02em;
+}
+/* кольори */
+.color-accent {
+  color: #a12339 !important;
+}
+.color-accent-bg {
+  background-color: #a12339 !important;
+}
+.color-white {
+  color: white !important;
+}
+.color-pink {
+  color: #d0919c !important;
+}
+.margin-bottom-72 {
+  margin-bottom: 72px;
+}
+.margin-bottom-8 {
+  margin-bottom: 8px;
+}
+.margin-bottom-24 {
+  margin-bottom: 24px;
+}
+.margin-0 {
+  margin: 0px !important;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.my-menu-all {
+  display: flex;
+  align-items: center;
+  flex-direction: row !important;
+  justify-content: center !important;
+}
+.my-menu-text {
+  padding: 8px 0px !important;
+}
+.my-menu:not(:last-child) {
+  margin-right: 40px;
+}
+.my-menu-2 {
+  margin: 0px 0px !important;
+}
+@media (max-width: 991px) {
+  .my-menu-2 > ul {
+    width: 100%;
+    margin: 24px 0;
+  }
+}
+@media (max-width: 768px) {
+  .my-menu-2 > ul {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .my-menu {
+    margin-right: 0px !important;
+  }
+  .my-menu-text {
+    padding: 16px 0px !important;
+  }
+}
+.hero-class-img {
+  width: 100%;
+  height: 100%;
+  background: url(../images/fone.png) center center no-repeat;
+  background-size: cover;
+}
+.my-hero-bottom {
+  margin-bottom: 186px;
+}
+.my-hero-top {
+  margin-top: 140px !important;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+#myButton {
+  background: #a12339;
+  border-radius: 6px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  padding: 16px 62px;
+  border-color: #a12339;
+}
+.my-container-1 {
+  width: 100%;
+  height: 100%;
+  background: url("../images/fone2.svg") center no-repeat;
+  background-size: cover;
+}
+.my-text {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-top: 96px;
+  margin-bottom: 248px;
+}
+.hidden {
+  padding: 0;
+}
+@media (max-width: 1200px) {
+  .hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+  }
+  .my-text {
+    margin-bottom: 200px;
+  }
+}
+@media (min-width: 1200px) {
+  .my-container-1 {
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 576px) {
+  .my-text {
+    margin-bottom: 248px;
+  }
+}
+.container-bg {
+  background-color: #f7edef;
+}
+.h2-advice {
+  margin-bottom: 72px;
+}
+.fone-advice {
+  padding: 52px 20px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.my-advice:not(:last-child) {
+  margin-bottom: 72px;
+}
+.my-advice-container {
+  padding: 120px 0;
+}
+.my-advice-col {
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .my-advice-col {
+    margin-bottom: 24px;
+  }
+}
+.column1 {
+  order: 1;
+}
+.column2 {
+  order: 2;
+}
+@media (max-width: 767px) {
+  .column1 {
+    order: 2;
+  }
+
+  .column2 {
+    order: 1;
+  }
+}
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+  background-color: #a12339 !important;
+}
+textarea {
+  background: none !important;
+  resize: none !important;
+}
+.my-container-120 {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.my-row-2 {
+  margin: 0px 0px !important;
+}
+@media (max-width: 991px) {
+  .my-row-2 > div {
+    width: 100%;
+    margin-bottom: 96px;
+  }
+}
+/* footer */
+footer {
+  background-color: #a12339;
+  padding: 54px 0;
+  color: white;
+}
