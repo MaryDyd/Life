@@ -51,6 +51,9 @@ body {
 .color-pink {
   color: #d0919c !important;
 }
+.color-text{
+  color: #171612 !important;
+}
 .margin-bottom-72 {
   margin-bottom: 72px;
 }
@@ -101,6 +104,9 @@ body {
     padding: 16px 0px !important;
   }
 }
+.my-burger{
+ border: none !important;
+}
 .hero-class-img {
   width: 100%;
   height: 100%;
@@ -127,6 +133,17 @@ body {
   padding: 16px 62px;
   border-color: #a12339;
 }
+.my-hero-text{
+  text-align: left;
+}
+@media (max-width: 575px) {
+  .my-hero-text{
+    text-align: center;
+  }
+}
+
+
+
 .my-container-1 {
   width: 100%;
   height: 100%;
@@ -191,6 +208,11 @@ body {
 .my-advice-container {
   padding: 120px 0;
 }
+@media (max-width: 768px) {
+  .my-advice-container {
+    padding: 96px 0;
+  }
+}
 .my-advice-col {
   margin-bottom: 0;
 }
@@ -228,11 +250,17 @@ textarea {
   margin-top: 120px;
   margin-bottom: 120px;
 }
+@media (max-width: 768px) {
+  .my-container-120 {
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
 .my-row-2 {
   margin: 0px 0px !important;
 }
 @media (max-width: 991px) {
-  .my-row-2 > div {
+  .my-row-2 > div:not(:last-child) {
     width: 100%;
     margin-bottom: 96px;
   }
