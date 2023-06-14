@@ -45,11 +45,22 @@ body {
 .color-accent-bg {
   background-color: #a12339 !important;
 }
+.color-accent-bg:hover,
+.color-accent-bg:focus {
+  background-color: #801C2D !important;
+}
 .color-white {
   color: white !important;
 }
 .color-pink {
   color: #d0919c !important;
+  fill: #d0919c !important;
+}
+.color-pink:hover,
+.color-pink:focus {
+  color: #801C2D !important;
+  fill: #801C2D !important;
+
 }
 .color-text{
   color: #171612 !important;
@@ -104,6 +115,11 @@ body {
     padding: 16px 0px !important;
   }
 }
+.my-menu-text:hover,
+.my-menu-text:focus {
+  color: #801C2D !important;
+}
+
 .my-burger{
  border: none !important;
 }
@@ -132,6 +148,11 @@ body {
   letter-spacing: 0.04em;
   padding: 16px 62px;
   border-color: #a12339;
+}
+#myButton:hover,
+#myButton:focus {
+  background: #801C2D !important;
+  border-color: #801C2D;
 }
 .my-hero-text{
   text-align: left;
@@ -239,6 +260,10 @@ body {
   border-radius: 0.75rem;
   background-color: #a12339 !important;
 }
+.feature-icon:hover,
+.feature-icon:focus {
+  background-color: #801C2D !important;
+}
 textarea {
   background: none !important;
   resize: none !important;
@@ -267,4 +292,22 @@ footer {
   background-color: #a12339;
   padding: 54px 0;
   color: white;
+}
+.my-column-class{
+  margin: 0px !important;
+}
+@media (max-width: 390px) {
+  .my-column-class {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+  }
+  .my-column-class:not(:last-child) {
+    padding-bottom: 24px;
+  }
+  .my-columns-class {
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+    }
 }
