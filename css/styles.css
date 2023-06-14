@@ -47,7 +47,7 @@ body {
 }
 .color-accent-bg:hover,
 .color-accent-bg:focus {
-  background-color: #801C2D !important;
+  background-color: #801c2d !important;
 }
 .color-white {
   color: white !important;
@@ -58,11 +58,10 @@ body {
 }
 .color-pink:hover,
 .color-pink:focus {
-  color: #801C2D !important;
-  fill: #801C2D !important;
-
+  color: #801c2d !important;
+  fill: #801c2d !important;
 }
-.color-text{
+.color-text {
   color: #171612 !important;
 }
 .margin-bottom-72 {
@@ -117,11 +116,11 @@ body {
 }
 .my-menu-text:hover,
 .my-menu-text:focus {
-  color: #801C2D !important;
+  color: #801c2d !important;
 }
 
-.my-burger{
- border: none !important;
+.my-burger {
+  border: none !important;
 }
 .hero-class-img {
   width: 100%;
@@ -151,14 +150,14 @@ body {
 }
 #myButton:hover,
 #myButton:focus {
-  background: #801C2D !important;
-  border-color: #801C2D;
+  background: #801c2d !important;
+  border-color: #801c2d;
 }
-.my-hero-text{
+.my-hero-text {
   text-align: left;
 }
 @media (max-width: 575px) {
-  .my-hero-text{
+  .my-hero-text {
     text-align: center;
   }
 }
@@ -262,7 +261,7 @@ body {
 }
 .feature-icon:hover,
 .feature-icon:focus {
-  background-color: #801C2D !important;
+  background-color: #801c2d !important;
 }
 textarea {
   background: none !important;
@@ -293,7 +292,7 @@ footer {
   padding: 54px 0;
   color: white;
 }
-.my-column-class{
+.my-column-class {
   margin: 0px !important;
 }
 @media (max-width: 390px) {
@@ -308,6 +307,6 @@ footer {
   .my-columns-class {
     display: flex;
     flex-direction: column;
-        align-items: center;
-    }
+    align-items: center;
+  }
 }
